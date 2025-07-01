@@ -1,6 +1,7 @@
 <!-- templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>🎬 Movie Recommender</title>
@@ -63,10 +64,11 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container text-center">
-        <h1>🎬 
-            
+        <h1>
+            🎬 Movie's Recommendations System
         </h1>
 
         <form action="/recommend" method="POST">
@@ -74,7 +76,7 @@
                 <select class="form-select" name="movie" required>
                     <option disabled selected>Select a movie</option>
                     {% for movie in movie_list %}
-                        <option value="{{ movie }}" {% if selected_movie == movie %}selected{% endif %}>{{ movie }}</option>
+                    <option value="{{ movie }}" {% if selected_movie==movie %}selected{% endif %}>{{ movie }}</option>
                     {% endfor %}
                 </select>
             </div>
@@ -99,8 +101,9 @@
         {% endif %}
 
         <div class="footer text-center mt-5">
-            <p>&copy; 2025 Movie Recommender | Flask + Bootstrap</p>
+            <p>&copy; 2025 Movie Recommender | Flask + Bootstrap | # Gaurav Pandwar </p>
         </div>
     </div>
 </body>
+
 </html>
