@@ -24,7 +24,6 @@ This system suggests the **top 5 movies** similar to a given movie based on thei
 | Machine Learning | scikit-learn |
 | Text Processing | CountVectorizer / TF-IDF |
 | Web Framework | Flask |
-| Deployment | XAMPP / Localhost / Streamlit *(optional)* |
 
 ---
 
@@ -105,8 +104,8 @@ movie-recommendation-system/
 ## 👨‍💻 Author
 
 **Gaurav Pandwar**  
-📧 [Your Email Here]  
-🔗 [LinkedIn](#) | [GitHub](#)
+📧 [Email](mailto:gp3084@gmail.com)  
+🔗 [LinkedIn](#) | [GitHub](https://github.com/GPandwar30/Movie-Recommender-System/)
 
 ---
 
